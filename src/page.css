@@ -43,3 +43,8 @@
 .swal2-timer-progress-bar{
     background: #198754 !important;
 }
+
+.swal2-icon.my-class-icon.swal2-icon-show{
+    border-color:transparent !important;
+    font-size:2rem
+}

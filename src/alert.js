@@ -80,9 +80,13 @@ document.addEventListener('DOMContentLoaded',()=>{
                         title:'Thanks for comming',
                         toast:true,
                         text:`It is a plasure met you, ${valueInp}`,
-                        timer:225000,
+                        timer:5000,
                         position:'top-end',
+                        iconHtml:'<i class="far fa-smile-wink"></i>',
                         timerProgressBar:true,
+                        customClass:{
+                            icon:"my-class-icon"
+                        }
                     })
                 },1000)
             })
